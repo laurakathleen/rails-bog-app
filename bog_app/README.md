@@ -1,24 +1,3 @@
-# README
+##First Run
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+My first run took me close to 2-1/2 hours.  I used the hints to guide me along the way and ran into trouble after I thought my "as" section in my routes.rb was breaking my code and ended up taking those out.  However, I learned that I do in fact need those, as they determine what my prefixes will be for my path (when I thought the prefixes determined the "as" label).  Next time around, I'll definitely keep that in mind.
