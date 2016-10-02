@@ -33,6 +33,13 @@ def update
   redirect_to creature_path(creature_id)
 end
 
+def destroy
+  creature_id = params[:id]
+  creature = Creature.find_by_id(creature_id)
+  creature.destroy
+  redirect_to creatures_path
+end
+
 private
 
   def creature_params
