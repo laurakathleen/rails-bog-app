@@ -16,4 +16,9 @@ class CreaturesController < ApplicationController
     end
   end
 
+  def show
+    creature_id = params[:id]
+    @creature = Creature.find_by_id(creature_id)
+  end
+
 end
