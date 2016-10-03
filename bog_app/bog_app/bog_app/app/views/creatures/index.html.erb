@@ -1,4 +1,4 @@
 <% @creatures.each do |creature| %>
-  <p>Name: <%= creature.name %></p>
+  <p>Name: <%= link_to creature.name, creature_path(creature) %></p>
   <p>Descriptions: <%= creature.description %></p>
 <% end %>
