@@ -1,5 +1,5 @@
-Creature.create({ name: "Yoda", description: "A little green guy"})
-Creature.create({ name: "Luke", description: "A cool guy"})
+Creature.create({name: "Yoda", description:"Little green guy"})
+Creature.create({name: "Luke", description:"Pretty normal guy"})
 
 
 # This file should contain all the record creation needed to seed the database with its default values.
