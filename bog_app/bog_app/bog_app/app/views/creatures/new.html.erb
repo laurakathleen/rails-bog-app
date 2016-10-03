@@ -3,3 +3,9 @@
   <%= f.text_area :description %>
   <%= f.submit "Save Creature" %>
 <% end %>
+
+<% if @creature.errors.any? %>
+  <% @creature.errors.messages.each do |message| %>
+    <div class="message"><%= message.last.last.html_safe %></div>
+  <% end %>
+<% end %>
